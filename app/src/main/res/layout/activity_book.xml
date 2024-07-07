@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="10dp"
+            android:layout_height="5dp"/>
+        <ImageButton
+            android:id="@+id/book_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/back" />
+        <View
+            android:layout_width="10dp"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:id="@+id/book_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="#2F5596"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/book_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

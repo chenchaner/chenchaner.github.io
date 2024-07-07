@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">open.iciba.com</domain>
+        <domain includeSubdomains="true">dict-co.iciba.com</domain>
+        <domain includeSubdomains="true">rw.ylapi.cn</domain>
+        <domain includeSubdomains="true">res.iciba.com</domain>
+    </domain-config>
+</network-security-config>
