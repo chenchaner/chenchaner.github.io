@@ -104,10 +104,10 @@
         android:layout_height="0dp"
         android:layout_weight="1"/>
 
-    <com.example.dictionary.BottomLayout
-        android:id="@+id/bottom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"/>
+<!--    <com.example.dictionary.AuxiliaryClass.BottomLayout-->
+<!--        android:id="@+id/bottom"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"/>-->
 
 </LinearLayout>
